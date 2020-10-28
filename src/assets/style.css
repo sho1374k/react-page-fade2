@@ -1,0 +1,52 @@
+/* .App {
+  font-family: sans-serif;
+  text-align: center;
+} */
+body{
+  background: #EEF0F4;
+}
+header{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.link-nav{
+  height: 80px;
+  width: 80px;
+  background: #EEF0F4;
+  border-radius: 10px;
+  box-shadow: 6.31px 6.31px 15px #D9DADE, -6.31px -6.31px 15px #FFFFFF;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: block;
+  line-height: 80px;
+  text-align: center;
+  text-decoration: none;
+  color: dimgray;
+}
+.content{
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.center{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  height: 500px;
+  width: 500px;
+  background: #EEF0F4;
+  border-radius: 10px;
+  box-shadow: 6.31px 6.31px 15px #D9DADE, -6.31px -6.31px 15px #FFFFFF;
+  text-align: center;
+  line-height: 500px;
+  font-size: 30px;
+  color: dimgray;
+
+}
