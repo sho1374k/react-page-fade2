@@ -8,8 +8,11 @@ export const Page2 = () => {
         // スライド
         // x: 0, opacity: 1
 
+        // フェード
+        opacity:1,
+
         // ズーム
-        scale: (1, 1), opacity: 1
+        // scale: (1, 1), opacity: 1
 
         // フリップ
         // transform: "rotateY(0deg)", opacity:1
@@ -19,8 +22,11 @@ export const Page2 = () => {
         // スライド
         // x: 100, opacity: 0
 
+        // フェード
+        opacity:0,
+
         // ズーム
-        scale: (0, 0), opacity: 1
+        // scale: (0, 0), opacity: 1
 
         // フリップ
         // transform: "rotateY(180deg)", opacity:0
@@ -29,8 +35,11 @@ export const Page2 = () => {
         // スライド
         // x: -100, opacity: 0
 
+        // フェード
+        opacity:0,
+
         // ズーム
-        scale: (0, 0), opacity: 0
+        // scale: (0, 0), opacity: 0
 
         // フリップ
         // transform: "rotateY(-180deg)", opacity:0
